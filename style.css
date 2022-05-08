@@ -1,0 +1,303 @@
+html{
+    min-width: 100vh!important;
+    min-height: 100%!important;
+}
+body{
+    min-height: 100%!important;
+    min-width: 100%!important;
+    background-color: antiquewhite!important;
+}
+header{
+    background-image: url("coding-g8695d612e_1920.jpg");
+    background-size: cover;
+    background-position: 50% 90%;
+    height: 100vh!important;
+    width: 100%;
+}
+.blue_box{
+    background-color:cadetblue;
+    opacity: 0.5;
+    height: 100vh;
+    width: 100%;
+}
+.text{
+    color: white;
+    position: absolute;
+    top: 0;
+    margin-left: 2rem;
+    padding-top: 5rem;
+}
+.text h1{
+    font-size: 7rem;
+    font-weight: 600;
+}
+.text p{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.section_1,
+.section_3{
+    margin-top: 5rem;
+    text-align: center;
+}
+.section_1 h1,
+.section_3 h1{
+    font-size: 6rem;
+    font-weight: 300;
+}
+.section_1 hr,
+.section_3 hr{
+    width: 30%;
+    color: cadetblue;
+    margin-left: auto;
+    margin-right: auto;
+    border: none!important;
+    height: 3px!important;
+    opacity: 1;
+}
+.avatar{
+    margin-top: 3rem;
+    width: 20rem;
+    border-radius: 50%;
+}
+.section_1 p, .section_2 p{
+    font-size: 2rem;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.section_1 button{
+    padding: 3% 7% 3% 7%;
+    font-size: 3rem;
+    border-radius: 10rem;
+}
+.section_2{
+    background-color: cadetblue;
+    text-align: center;
+    padding-bottom: 5rem;
+}
+.section_2 h1{
+    font-size: 6rem;
+    font-weight: 300;
+    padding-top: 5rem;
+}
+.section_2 hr{
+    width: 30%;
+    color:antiquewhite;
+    margin-left: auto;
+    margin-right: auto;
+    border: none!important;
+    height: 3px!important;
+    opacity: 1;
+}
+.card{
+    width: 18rem;
+    margin-top: 5rem;
+    border-radius: 2rem!important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card img{
+    border-radius: 2rem!important;
+}
+.section_3 img{
+    padding: 0;
+    width: 300px;
+}
+.container_1 h2{
+    margin-top: 5rem;
+    font-size: 3rem;
+    font-weight: 600;
+    color: antiquewhite;
+}
+.card h2{
+    visibility: hidden;
+    position: absolute;
+    color: white!important;
+    z-index: 65465;
+    margin: 0;
+    font-size: 2rem;
+}
+.hover_box{
+    background-color: black;
+    opacity: 0.5;
+    width: 18.8rem;
+    height: 18.8rem;
+    position: absolute;
+    z-index: 15;
+    border-radius: 2rem;
+    visibility: hidden;
+}
+.card:hover .hover_box,
+.card:hover h2{
+    visibility: visible!important;
+    cursor: pointer;
+}
+.progress_1{
+    margin: 0 1rem 0 1rem;
+    height: 2rem!important;
+    background-color: rgb(76, 129, 131)!important;
+    border-radius: 100rem!important;
+    margin-top: 8rem;
+    display: flex;
+    align-items: center;
+}
+.grad_1{
+    display: flex;
+    align-items: center;
+    margin-left: 0.3rem;
+    height: 1.5rem;
+    border-radius: 100rem;
+    width: 80%;
+    background-image:linear-gradient(to right, antiquewhite, hsl(6, 100%, 80%));
+}
+.end_1{
+    width: 1.4rem!important;
+    height: 1.4rem!important;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: 0.1rem;
+    background-color: cadetblue;
+}
+.progress_2{
+    margin: 0 1rem 0 1rem;
+    height: 2rem!important;
+    background-color: rgb(76, 129, 131)!important;
+    border-radius: 100rem!important;
+    margin-top: 8rem;
+    display: flex;
+    align-items: center;
+}
+.grad_2{
+    display: flex;
+    align-items: center;
+    margin-left: 0.3rem;
+    height: 1.5rem;
+    border-radius: 100rem;
+    width: 87%;
+    background-image:linear-gradient(to right, antiquewhite, hsl(6, 100%, 80%));
+}
+.end_2{
+    width: 1.4rem!important;
+    height: 1.4rem!important;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: 0.1rem;
+    background-color: cadetblue;
+}
+.progress_3{
+    margin: 0 1rem 0 1rem;
+    height: 2rem!important;
+    background-color: rgb(76, 129, 131)!important;
+    border-radius: 100rem!important;
+    margin-top: 8rem;
+    display: flex;
+    align-items: center;
+}
+.grad_3{
+    display: flex;
+    align-items: center;
+    margin-left: 0.3rem;
+    height: 1.5rem;
+    border-radius: 100rem;
+    width: 65%;
+    background-image:linear-gradient(to right, antiquewhite, hsl(6, 100%, 80%));
+}
+.end_3{
+    width: 1.4rem!important;
+    height: 1.4rem!important;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: 0.1rem;
+    background-color: cadetblue;
+}
+.progress_4{
+    margin: 0 1rem 0 1rem;
+    height: 2rem!important;
+    background-color: rgb(76, 129, 131)!important;
+    border-radius: 100rem!important;
+    margin-top: 8rem;
+    display: flex;
+    align-items: center;
+}
+.grad_4{
+    display: flex;
+    align-items: center;
+    margin-left: 0.3rem;
+    height: 1.5rem;
+    border-radius: 100rem;
+    width: 35%;
+    background-image:linear-gradient(to right, antiquewhite, hsl(6, 100%, 80%));
+}
+.end_4{
+    width: 1.4rem!important;
+    height: 1.4rem!important;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: 0.1rem;
+    background-color: cadetblue;
+}
+.progress_5{
+    margin: 0 1rem 0 1rem;
+    height: 2rem!important;
+    background-color: rgb(76, 129, 131)!important;
+    border-radius: 100rem!important;
+    margin-top: 8rem;
+    display: flex;
+    align-items: center;
+}
+.grad_5{
+    display: flex;
+    align-items: center;
+    margin-left: 0.3rem;
+    height: 1.5rem;
+    border-radius: 100rem;
+    width: 20%;
+    background-image:linear-gradient(to right, antiquewhite, hsl(6, 100%, 80%));
+}
+.end_5{
+    width: 1.4rem!important;
+    height: 1.4rem!important;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: 0.1rem;
+    background-color: cadetblue;
+}
+.progress_6{
+    margin: 0 1rem 0 1rem;
+    height: 2rem!important;
+    background-color: rgb(76, 129, 131)!important;
+    border-radius: 100rem!important;
+    margin-top: 8rem;
+    display: flex;
+    align-items: center;
+}
+.grad_6{
+    display: flex;
+    align-items: center;
+    margin-left: 0.3rem;
+    height: 1.5rem;
+    border-radius: 100rem;
+    width: 70%;
+    background-image:linear-gradient(to right, antiquewhite, hsl(6, 100%, 80%));
+}
+.end_6{
+    width: 1.4rem!important;
+    height: 1.4rem!important;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: 0.1rem;
+    background-color: cadetblue;
+}
+
+
+@media screen and (min-width:700px){
+    .section_1 p{
+        font-size: 1.2rem;
+        margin-top: 10%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+}
