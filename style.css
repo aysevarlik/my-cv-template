@@ -1,6 +1,7 @@
 html{
     min-width: 100vh!important;
     min-height: 100%!important;
+    overflow-x: hidden;
 }
 body{
     min-height: 100%!important;
@@ -13,6 +14,9 @@ header{
     background-position: 50% 90%;
     height: 100vh!important;
     width: 100%;
+    text-align: center!important;
+    display: flex;
+    justify-content: center;
 }
 .blue_box{
     background-color:cadetblue;
@@ -24,7 +28,6 @@ header{
     color: white;
     position: absolute;
     top: 0;
-    margin-left: 2rem;
     padding-top: 5rem;
 }
 .text h1{
@@ -34,6 +37,15 @@ header{
 .text p{
     font-size: 2.5rem;
     font-weight: 600;
+}
+.text button{
+    background-color: antiquewhite;
+    border: none;
+    width: 10rem;
+    height: 3rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 1rem;
 }
 .section_1,
 .section_3{
@@ -67,7 +79,8 @@ header{
     margin-right: 10%;
 }
 .section_1 button{
-    padding: 3% 7% 3% 7%;
+    width: 25rem;
+    height: 10rem;
     font-size: 3rem;
     border-radius: 10rem;
 }
@@ -90,16 +103,25 @@ header{
     height: 3px!important;
     opacity: 1;
 }
+.section_3 .container{
+    display: flex;
+    justify-content: center;
+}
 .card{
-    width: 18rem;
-    margin-top: 5rem;
+    width: 15rem;
+    margin-top: 3rem;
     border-radius: 2rem!important;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .card img{
+    width: 15rem!important;
+    height: auto;
     border-radius: 2rem!important;
+}
+.card:hover img{
+    width: 17rem!important;
 }
 .section_3 img{
     padding: 0;
@@ -122,8 +144,8 @@ header{
 .hover_box{
     background-color: black;
     opacity: 0.5;
-    width: 18.8rem;
-    height: 18.8rem;
+    width: 17rem;
+    height: 17rem;
     position: absolute;
     z-index: 15;
     border-radius: 2rem;
@@ -295,9 +317,27 @@ header{
 @media screen and (min-width:700px){
     .section_1 p{
         font-size: 1.2rem;
-        margin-top: 10%;
+        margin-top: 5%;
         margin-left: 10%;
         margin-right: 10%;
+    }
+    .section_1 button{
+        width: 10rem;
+        height: 3rem;
+        font-size: 1rem;
+    }
+    .text button{
+        margin-top: 3rem;
+    }
+    .section_1 h1,
+    .section_2 h1,
+    .section_3 h1{
+        font-size: 3rem!important;
+    }
+    .section_1 hr,
+    .section_2 hr,
+    .section_3 hr{
+        width: 10%;
     }
 
 }
